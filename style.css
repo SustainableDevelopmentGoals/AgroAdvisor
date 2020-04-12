@@ -1,0 +1,178 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0; 
+    padding: 0; 
+}
+
+#container {
+	background-color: white	;
+	width:40%;
+	height:100%;
+	right:0;
+	min-width: 200px;
+	position: absolute;
+	z-index: 10;
+}
+
+#registrations {
+	background-color: white	;
+	width:99.3%;
+	height:57%;
+	right:0;
+	min-width: 200px;
+	position: absolute;
+	z-index: 10;
+	overflow-y: scroll;
+	border: 2px solid black;
+}
+
+#header{
+    background-color: white;
+    width:100%;
+    height:40%;
+    border: 1px solid black;
+    display:inline-block;
+    margin:0;
+    padding-left:5px;
+}
+
+p {
+    font-family:'Montserrat';
+}
+
+#header h2{
+    font-family: 'Gotu';
+    margin:0;
+}
+
+#header p {
+    display:inline;
+}
+
+#name_input {
+    margin-bottom:10px;
+    margin-top:20px;
+}
+
+#name_input input {
+    border: 1px black solid;
+}
+
+#location_input {
+    margin-bottom:10px;
+}
+
+#location_input p {
+    padding-top:10px;
+}
+
+.registration {
+    background-color: white;
+    width: 95%;
+    height: 40%;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:10px;
+    padding:0;
+    border: 1px solid black;
+}
+
+.registration p {
+    font-size:12px;
+    padding-right:5px;
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid white;
+	font-size:calc(17px + 1.5vw);
+}
+
+h3,h4 {
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+	font-size:calc(12px + 0.5vw);
+}
+
+button {
+color: #494949 !important;
+text-decoration: none;
+background: #ffffff;
+padding: 5px;
+border: 1px solid #494949 !important;
+display: inline-block;
+transition: all 0.4s ease 0s;
+margin: 0;
+}
+
+.registration button {
+float:right;
+margin-right:10px;
+width:150px;
+font-size:10px;
+}
+
+#send_registrations {
+    text-align:center;
+    align-items:center;
+}
+
+button:hover {
+color: #ffffff !important;
+background: gray;
+border-color: #f6b93b !important;
+transition: all 0.4s ease 0s;
+}
+
+button:hover{
+	/*color: #ffffff !important;*/
+	/*background: #dff6f0;*/
+	border-color: #dff6f0 !important;*/
+	/*transition: all 0.4s ease 0s;*/
+}
+
+.map {
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+
+.registration {
+    display:inline-flex;
+}
+
+.registration h4 {
+    font-family:'Montserrat';
+    font-size:10px;
+}
+
+.registration div {
+    width:80px;
+}
+
+/*input,textarea{
+	/*width: 500px;	*/
+	border: none;
+	border-radius: 20px;
+	outline: none;
+	padding: 10px;
+	font-family: 'Sen', cursive;
+	font-size: 1em;
+	color: #676767;
+	transition: border 0.5s;
+	-webkit-transition: border 0.5s;
+	-moz-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	border: solid 1px #98d4f3;	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	width: 90%;
+	max-width: 300px;
+}*/
+
+input[type="text"]{
+	width: 90%;
+}

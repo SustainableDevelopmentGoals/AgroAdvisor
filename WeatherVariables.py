@@ -8,3 +8,11 @@ class WeatherVariables(BaseVariables):
     @numeric_rule_variable
     def rainfall_total(self):
         return self.weather.total_rainfall()
+
+    @numeric_rule_variable
+    def avg_temperature(self):
+        return self.weather.avg_temperature_day()
+
+    @numeric_rule_variable
+    def max_wind_speed(self):
+        return self.weather.max_wind_speed()
