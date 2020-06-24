@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7ef6581-937d-48b8-8954-17e51daa1503" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/manager.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AgriActions.py" afterPath="$PROJECT_DIR$/AgriActions.py" />
-      <change beforePath="$PROJECT_DIR$/WeatherObject.py" afterPath="$PROJECT_DIR$/WeatherObject.py" />
-      <change beforePath="$PROJECT_DIR$/WeatherVariables.py" afterPath="$PROJECT_DIR$/WeatherVariables.py" />
-      <change beforePath="$PROJECT_DIR$/registrations.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/rules.py" afterPath="$PROJECT_DIR$/rules.py" />
-      <change beforePath="$PROJECT_DIR$/server.py" afterPath="$PROJECT_DIR$/server.py" />
-      <change beforePath="$PROJECT_DIR$/weather.py" afterPath="$PROJECT_DIR$/weather.py" />
-    </list>
+    <list default="true" id="b7ef6581-937d-48b8-8954-17e51daa1503" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-37" />
     <option name="y" value="51" />
     <option name="width" value="1050" />
@@ -299,7 +289,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
